@@ -7,13 +7,12 @@ let when = ['despues de clases','justo a tiempo','cuando terminé','durante mi a
 var rand = Math.floor((Math.random() * 3) + 0);
 var rand1 = Math.floor((Math.random() * 4) + 0);
 
-var sentence = who[rand] + action[rand] + what [rand] + when[rand1] + ".";
+var excuse = who[rand] + action[rand] + what [rand] + when[rand1];
 
 window.onload = () => {
    
-    document.querySelector("#excuse").innerHTML = sentence;
+    document.querySelector("#excuse").innerHTML = excuse;
 }
 
-    function actualizar(){location.reload(true);}
-    setInterval("actualizar()",4000);
-  
+function actualizar(){location.reload(true);}
+setInterval("actualizar()",5000);
