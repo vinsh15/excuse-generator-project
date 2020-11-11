@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(0, 238, 255);
+}
+
+div{
+    position: relative;
+    top: 100px;
+    border: 15px solid rgb(255, 136, 0);
+    background-color: white;
+    width: 600px;
+    height: 370px;
+    margin: auto;
+    background-image: url("./img/excuses.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+
+#excuse{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    color: black;
+}
