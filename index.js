@@ -13,3 +13,6 @@ window.onload = () => {
    
     document.querySelector("#excuse").innerHTML = sentence;
 }
+
+function actualizar(){location.reload(true);}
+setInterval("actualizar()",5000);
